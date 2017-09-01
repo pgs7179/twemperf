@@ -1,0 +1,52 @@
+big :2.101GHz memcached: 1.4GHz
+map 77% reduce 25%
+Bytes Read=8325668864
+real    15m17.939s   
+mcperf.log.1-2017-08-23-13-31:7:Connection time [ms]: avg 914174.8 min 912246.8 max 915314.0 stddev 1400.98
+mcperf.log.1-2017-08-23-13-31:8:Connect time [ms]: avg 1.1 min 0.0 max 2.6 stddev 1.15
+mcperf.log.1-2017-08-23-13-31:15:Response time [ms]: avg 4.6 min 0.0 max 504.3 stddev 0.00
+mcperf.log.1-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 4.0 p75 5.0
+mcperf.log.1-2017-08-23-13-31:17:Response time [ms]: p95 8.0 p99 8.0 p999 30.0
+mcperf.log.1-2017-08-23-13-31:25:CPU time [s]: user 145.24 system 694.63 (user 15.9% system 75.9% total 91.8%)
+mcperf.log.2-2017-08-23-13-31:7:Connection time [ms]: avg 674197.4 min 673697.5 max 675020.9 stddev 576.85
+mcperf.log.2-2017-08-23-13-31:8:Connect time [ms]: avg 1.3 min 0.0 max 3.4 stddev 1.54
+mcperf.log.2-2017-08-23-13-31:15:Response time [ms]: avg 3.4 min 0.1 max 228.8 stddev 0.00
+mcperf.log.2-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.2-2017-08-23-13-31:17:Response time [ms]: p95 4.0 p99 5.0 p999 19.0
+mcperf.log.2-2017-08-23-13-31:25:CPU time [s]: user 126.42 system 547.07 (user 18.7% system 81.0% total 99.8%)
+mcperf.log.3-2017-08-23-13-31:7:Connection time [ms]: avg 679143.5 min 675304.4 max 682468.0 stddev 3277.21
+mcperf.log.3-2017-08-23-13-31:8:Connect time [ms]: avg 1.5 min 0.0 max 3.1 stddev 1.39
+mcperf.log.3-2017-08-23-13-31:15:Response time [ms]: avg 3.4 min 0.1 max 226.9 stddev 0.00
+mcperf.log.3-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.3-2017-08-23-13-31:17:Response time [ms]: p95 4.0 p99 5.0 p999 19.0
+mcperf.log.3-2017-08-23-13-31:25:CPU time [s]: user 122.65 system 558.99 (user 18.0% system 81.9% total 99.9%)
+mcperf.log.4-2017-08-23-13-31:7:Connection time [ms]: avg 669716.1 min 668932.9 max 670299.5 stddev 691.60
+mcperf.log.4-2017-08-23-13-31:8:Connect time [ms]: avg 1.2 min 0.0 max 2.1 stddev 0.99
+mcperf.log.4-2017-08-23-13-31:15:Response time [ms]: avg 3.3 min 0.1 max 228.8 stddev 0.00
+mcperf.log.4-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.4-2017-08-23-13-31:17:Response time [ms]: p95 4.0 p99 5.0 p999 19.0
+mcperf.log.4-2017-08-23-13-31:25:CPU time [s]: user 122.84 system 546.72 (user 18.3% system 81.6% total 99.9%)
+mcperf.log.5-2017-08-23-13-31:7:Connection time [ms]: avg 913065.2 min 909006.7 max 915215.5 stddev 2862.70
+mcperf.log.5-2017-08-23-13-31:8:Connect time [ms]: avg 0.9 min 0.0 max 1.7 stddev 0.89
+mcperf.log.5-2017-08-23-13-31:15:Response time [ms]: avg 4.6 min 0.0 max 509.6 stddev 0.00
+mcperf.log.5-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 4.0 p75 5.0
+mcperf.log.5-2017-08-23-13-31:17:Response time [ms]: p95 8.0 p99 8.0 p999 32.0
+mcperf.log.5-2017-08-23-13-31:25:CPU time [s]: user 146.05 system 693.25 (user 16.0% system 75.7% total 91.7%)
+mcperf.log.6-2017-08-23-13-31:7:Connection time [ms]: avg 675050.8 min 673626.1 max 676660.9 stddev 1431.84
+mcperf.log.6-2017-08-23-13-31:8:Connect time [ms]: avg 1.8 min 0.0 max 3.0 stddev 1.33
+mcperf.log.6-2017-08-23-13-31:15:Response time [ms]: avg 3.4 min 0.1 max 223.2 stddev 0.00
+mcperf.log.6-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.6-2017-08-23-13-31:17:Response time [ms]: p95 4.0 p99 5.0 p999 19.0
+mcperf.log.6-2017-08-23-13-31:25:CPU time [s]: user 124.60 system 550.82 (user 18.4% system 81.4% total 99.8%)
+mcperf.log.7-2017-08-23-13-31:7:Connection time [ms]: avg 680974.3 min 678826.8 max 683770.2 stddev 2426.51
+mcperf.log.7-2017-08-23-13-31:8:Connect time [ms]: avg 2.4 min 0.0 max 4.5 stddev 1.88
+mcperf.log.7-2017-08-23-13-31:15:Response time [ms]: avg 3.4 min 0.1 max 227.7 stddev 0.00
+mcperf.log.7-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.7-2017-08-23-13-31:17:Response time [ms]: p95 4.0 p99 5.0 p999 19.0
+mcperf.log.7-2017-08-23-13-31:25:CPU time [s]: user 127.58 system 555.35 (user 18.7% system 81.2% total 99.9%)
+mcperf.log.8-2017-08-23-13-31:7:Connection time [ms]: avg 910629.3 min 908340.3 max 914049.6 stddev 2420.73
+mcperf.log.8-2017-08-23-13-31:8:Connect time [ms]: avg 1.7 min 0.0 max 4.0 stddev 1.76
+mcperf.log.8-2017-08-23-13-31:15:Response time [ms]: avg 4.6 min 0.0 max 519.2 stddev 0.00
+mcperf.log.8-2017-08-23-13-31:16:Response time [ms]: p25 3.0 p50 4.0 p75 5.0
+mcperf.log.8-2017-08-23-13-31:17:Response time [ms]: p95 8.0 p99 8.0 p999 33.0
+mcperf.log.8-2017-08-23-13-31:25:CPU time [s]: user 144.84 system 693.42 (user 15.8% system 75.9% total 91.7%)

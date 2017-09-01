@@ -1,0 +1,24 @@
+mcperf.log.1-2017-08-30-22-22:15:Response time [ms]: avg 9.1 min 0.0 max 257.4 stddev 0.00
+mcperf.log.1-2017-08-30-22-22:16:Response time [ms]: p25 5.0 p50 9.0 p75 12.0
+mcperf.log.1-2017-08-30-22-22:17:Response time [ms]: p95 15.0 p99 18.0 p999 23.0
+mcperf.log.2-2017-08-30-22-22:15:Response time [ms]: avg 4.3 min 0.1 max 212.2 stddev 0.00
+mcperf.log.2-2017-08-30-22-22:16:Response time [ms]: p25 4.0 p50 4.0 p75 5.0
+mcperf.log.2-2017-08-30-22-22:17:Response time [ms]: p95 5.0 p99 6.0 p999 9.0
+mcperf.log.3-2017-08-30-22-22:15:Response time [ms]: avg 4.3 min 0.1 max 211.6 stddev 0.00
+mcperf.log.3-2017-08-30-22-22:16:Response time [ms]: p25 4.0 p50 4.0 p75 5.0
+mcperf.log.3-2017-08-30-22-22:17:Response time [ms]: p95 5.0 p99 6.0 p999 9.0
+mcperf.log.4-2017-08-30-22-22:15:Response time [ms]: avg 4.3 min 0.1 max 209.6 stddev 0.00
+mcperf.log.4-2017-08-30-22-22:16:Response time [ms]: p25 4.0 p50 4.0 p75 5.0
+mcperf.log.4-2017-08-30-22-22:17:Response time [ms]: p95 5.0 p99 6.0 p999 9.0
+mcperf.log.5-2017-08-30-22-22:15:Response time [ms]: avg 9.1 min 0.1 max 250.3 stddev 0.00
+mcperf.log.5-2017-08-30-22-22:16:Response time [ms]: p25 5.0 p50 9.0 p75 12.0
+mcperf.log.5-2017-08-30-22-22:17:Response time [ms]: p95 15.0 p99 18.0 p999 23.0
+mcperf.log.6-2017-08-30-22-22:15:Response time [ms]: avg 4.3 min 0.4 max 211.6 stddev 0.00
+mcperf.log.6-2017-08-30-22-22:16:Response time [ms]: p25 4.0 p50 4.0 p75 5.0
+mcperf.log.6-2017-08-30-22-22:17:Response time [ms]: p95 5.0 p99 6.0 p999 9.0
+mcperf.log.7-2017-08-30-22-22:15:Response time [ms]: avg 4.3 min 0.1 max 210.9 stddev 0.00
+mcperf.log.7-2017-08-30-22-22:16:Response time [ms]: p25 4.0 p50 4.0 p75 5.0
+mcperf.log.7-2017-08-30-22-22:17:Response time [ms]: p95 5.0 p99 6.0 p999 9.0
+mcperf.log.8-2017-08-30-22-22:15:Response time [ms]: avg 9.2 min 0.0 max 251.6 stddev 0.00
+mcperf.log.8-2017-08-30-22-22:16:Response time [ms]: p25 5.0 p50 9.0 p75 12.0
+mcperf.log.8-2017-08-30-22-22:17:Response time [ms]: p95 15.0 p99 18.0 p999 22.0

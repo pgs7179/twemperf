@@ -26,7 +26,7 @@
  * 1 tick = 1 msec
  * 1 sec = 1000 ticks
  */
-#define TIMER_INTERVAL      (1.0 / 1000)            /* in sec */
+#define TIMER_INTERVAL      (1.0 / 10000)            /* in sec */
 #define TIMER_TICKS_SEC     (1.0 / TIMER_INTERVAL)  /* in ticks */
 
 #define TIMER_WHEEL_SIZE    4096

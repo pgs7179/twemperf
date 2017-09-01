@@ -1,0 +1,28 @@
+workcount: 2.1GHz mem: 1.2GHz
+Bytes Read=6042804224
+real    11m41.749s
+
+mcperf.log.1-2017-08-30-16-57:15:Response time [ms]: avg 4.6 min 0.0 max 480.6 stddev 0.00
+mcperf.log.1-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 4.0 p75 6.0
+mcperf.log.1-2017-08-30-16-57:17:Response time [ms]: p95 8.0 p99 10.0 p999 21.0
+mcperf.log.2-2017-08-30-16-57:15:Response time [ms]: avg 3.5 min 0.1 max 227.9 stddev 0.00
+mcperf.log.2-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.2-2017-08-30-16-57:17:Response time [ms]: p95 5.0 p99 7.0 p999 19.0
+mcperf.log.3-2017-08-30-16-57:15:Response time [ms]: avg 3.5 min 0.2 max 414.9 stddev 0.00
+mcperf.log.3-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.3-2017-08-30-16-57:17:Response time [ms]: p95 5.0 p99 7.0 p999 19.0
+mcperf.log.4-2017-08-30-16-57:15:Response time [ms]: avg 3.5 min 0.1 max 232.9 stddev 0.00
+mcperf.log.4-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.4-2017-08-30-16-57:17:Response time [ms]: p95 5.0 p99 7.0 p999 19.0
+mcperf.log.5-2017-08-30-16-57:15:Response time [ms]: avg 4.6 min 0.0 max 502.7 stddev 0.00
+mcperf.log.5-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 4.0 p75 6.0
+mcperf.log.5-2017-08-30-16-57:17:Response time [ms]: p95 8.0 p99 10.0 p999 21.0
+mcperf.log.6-2017-08-30-16-57:15:Response time [ms]: avg 3.5 min 0.2 max 226.6 stddev 0.00
+mcperf.log.6-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.6-2017-08-30-16-57:17:Response time [ms]: p95 5.0 p99 7.0 p999 19.0
+mcperf.log.7-2017-08-30-16-57:15:Response time [ms]: avg 3.5 min 0.1 max 221.3 stddev 0.00
+mcperf.log.7-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 3.0 p75 4.0
+mcperf.log.7-2017-08-30-16-57:17:Response time [ms]: p95 5.0 p99 7.0 p999 19.0
+mcperf.log.8-2017-08-30-16-57:15:Response time [ms]: avg 4.6 min 0.0 max 496.2 stddev 0.00
+mcperf.log.8-2017-08-30-16-57:16:Response time [ms]: p25 3.0 p50 4.0 p75 6.0
+mcperf.log.8-2017-08-30-16-57:17:Response time [ms]: p95 8.0 p99 10.0 p999 21.0
