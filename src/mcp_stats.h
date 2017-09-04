@@ -21,8 +21,8 @@
 
 #include <sys/resource.h>
 
-#define HIST_MAX_TIME  100                     /* max time in sec (histogram resolution) */
-#define HIST_BIN_WIDTH 1e-3                    /* bin width in sec (granularity) */
+#define HIST_MAX_TIME  1000                     /* max time in sec (histogram resolution) */
+#define HIST_BIN_WIDTH 1e-4                    /* bin width in sec (granularity) */
 #define HIST_NUM_BINS  (HIST_MAX_TIME * 1000)  /* # bins */
 
 struct stats {

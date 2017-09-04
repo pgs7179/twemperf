@@ -1,4 +1,4 @@
-cscope 15 $HOME/work/claudNcap/twemperf/src               0000323205
+cscope 15 $HOME/work/claudNcap/twemperf/src               0000323206
 	@gen/mcp_call_generator.c
 
 19 
@@ -22475,7 +22475,7 @@ _MCP_TIMER_H_
 
 29 
 	#TIMER_INTERVAL
- (1.0 / 1000è
+ (1.0 / 10000è
 
 	)
 
