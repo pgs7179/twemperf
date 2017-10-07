@@ -21,6 +21,17 @@
 #include <unistd.h>
 #include <getopt.h>
 #include <mcp_core.h>
+#include <mcp_stats.h>
+#include <signal.h>
+
+
+struct context *global_ctx;
+void sig_handler()
+{
+    core_stop(global_ctx);
+    printf("run signal handler \n");
+    signal(SIGINT,SIG_DFL);
+};
 
 extern struct string req_strings[];
 
@@ -675,7 +686,8 @@ main(int argc, char **argv)
 {
     rstatus_t status;
     static struct context ctx;
-
+    signal(SIGINT , sig_handler);
+    global_ctx = &ctx;
     mcp_set_default_options(&ctx);
 
     status = mcp_get_options(&ctx, argc, argv);

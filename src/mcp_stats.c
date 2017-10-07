@@ -388,8 +388,8 @@ stats_dump(struct context *ctx)
                 if (i > 0 && stats->req_rsp_hist[i - 1] == 0) {
                     log_stderr("%14c", ':');
                 }
-                bin_time = i * HIST_BIN_WIDTH;
-                log_stderr("%16.1f %u", 1e3 * bin_time, stats->req_rsp_hist[i]);
+                bin_time = i * HIST_BIN_WIDTH / 10;
+                log_stderr("%16.2f %u", 1e3 * bin_time, stats->req_rsp_hist[i]);
             }
             if (stats->req_rsp_hist[i - 1] == 0) {
                 log_stderr("%14c", ':');
@@ -400,27 +400,27 @@ stats_dump(struct context *ctx)
             n += stats->req_rsp_hist[i];
 
             if (req_rsp_p25 == 0.0 && n >= lrint(0.25 * stats->nrsp)) {
-                req_rsp_p25 = i * HIST_BIN_WIDTH;
+                req_rsp_p25 = i * HIST_BIN_WIDTH / 10;
             }
 
             if (req_rsp_p50 == 0.0 && n >= lrint(0.50 * stats->nrsp)) {
-                req_rsp_p50 = i * HIST_BIN_WIDTH;
+                req_rsp_p50 = i * HIST_BIN_WIDTH / 10;
             }
 
             if (req_rsp_p75 == 0.0 && n >= lrint(0.70 * stats->nrsp)) {
-                req_rsp_p75 = i * HIST_BIN_WIDTH;
+                req_rsp_p75 = i * HIST_BIN_WIDTH / 10;
             }
 
             if (req_rsp_p95 == 0.0 && n >= lrint(0.95 * stats->nrsp)) {
-                req_rsp_p95 = i * HIST_BIN_WIDTH;
+                req_rsp_p95 = i * HIST_BIN_WIDTH / 10;
             }
 
             if (req_rsp_p99 == 0.0 && n >= lrint(0.99 * stats->nrsp)) {
-                req_rsp_p99 = i * HIST_BIN_WIDTH;
+                req_rsp_p99 = i * HIST_BIN_WIDTH / 10;
             }
 
             if (req_rsp_p999 == 0.0 && n >= lrint(0.999 * stats->nrsp)) {
-                req_rsp_p999 = i * HIST_BIN_WIDTH;
+                req_rsp_p999 = i * HIST_BIN_WIDTH / 10;
             }
         }
 
